@@ -1,0 +1,26 @@
+body {
+display: grid;
+height: 100%;
+width: 100%;
+padding: 0%;
+grid-template-areas: 
+'header header header'
+'section section section';
+}
+
+header {
+grid-area: header;
+display: block;
+margin: auto;
+color: white;
+padding: 2%;
+}
+
+body {
+background-color: black;
+}
+
+h2 {
+    color: white;
+    text-align: center;
+}

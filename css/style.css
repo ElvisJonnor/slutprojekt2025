@@ -1,1 +1,37 @@
-/* STILMALL */
+body {
+display: grid;
+height: 100%;
+width: 100%;
+padding: 0%;
+grid-template-areas: 
+'header header header'
+'nav nav nav'
+'footer footer footer' ;
+}
+
+#logo {
+grid-area: footer;
+display: block;
+margin: auto;
+background-color: black;
+}
+
+
+body {
+background-color:black ;
+
+}
+
+#title {
+text-align: center;
+grid-area: header;
+color: white;
+padding: 2%;
+}
+
+nav {
+text-align: center;
+color: white;
+padding: 10%;
+}
+

@@ -16,10 +16,12 @@ margin: auto;
 background-color: black;
 }
 
+a {
+
+}
 
 body {
 background-color:black ;
-
 }
 
 #title {
@@ -27,6 +29,12 @@ text-align: center;
 grid-area: header;
 color: white;
 padding: 2%;
+}
+
+nav a {
+display: block;
+color: white;
+text-decoration: none;
 }
 
 nav {

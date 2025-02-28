@@ -1,0 +1,46 @@
+body {
+    display: grid;
+    height: 100%;
+    width: 100%;
+    padding: 0%;
+    grid-template-areas: 
+    'header header'
+    'aside section'
+    ;
+    background-color: black;
+    }
+    
+    header {
+    color: white;
+    grid-area: header;
+    text-align: center;
+    padding: 3%;
+    }
+    
+    section {
+    grid-area: section;
+    color: white;
+    text-align: center;
+    height: 50%;
+    width: 50%;
+    padding-left: 36%;
+    }
+    
+    aside {
+    grid-area: aside;
+    }
+    
+    
+    img {
+    width: 150%;
+    height: 100%;
+    }
+    
+    ul {
+    text-align: center;
+    }
+
+
+
+
+}
